@@ -127,13 +127,3 @@ SELECT  substring(l.orderdate,7,4) as Year,State ,Category,Profit,
 From listoforders l
 Join orderdetails o on l.OrderID = o.OrderID
 order by StateProfit  desc
-
-
-
-
-
-
-
-
-
-
